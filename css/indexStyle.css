@@ -9,8 +9,8 @@ body {
 }
 
 .container{
-	width: 80%;
-	margin: auto;
+	width:1200px;
+	margin-left: 140px;
 	overflow: hidden;
 }
 
@@ -102,6 +102,36 @@ form{
 	height: 15px;
 	margin-left: 50px;
 	
+}
+.discover{
+	text-align: center;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	max-width: 220px;
+	min-width: 220px;
+	max-height: 220px;
+	min-height: 220px;
+	background:url(../img/light-bulb.png);
+	color: white;
+}
+.discover p{
+	position: relative;
+	bottom: 10px;
+	color: #35424a;
+	font-weight: bold;
+}
+.ranking{
+	text-align: center;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	max-width: 220px;
+	min-width: 220px;
+	max-height: 220px;
+	min-height: 220px;
+	background-color:#D1BD03;
+	color: white;
 }
 
 .text_1{
